@@ -8,30 +8,30 @@
 3. Подключить дополнительный репозиторий MySQL. Установить любой пакет
 из этого репозитория.
 4. Установить и удалить deb-пакет с помощью dpkg.
-5. Выложить [историю команд]
+5. Выложить [историю команд]  
 `egor@egor-VivoBook-S15-X510UF:$ cat > "Домашние животные"
-Аиди, Алано, Акита, Бульдог, Мейн-кун, Сибирская кошка, Хомяк обыкновенный`   
-egor@egor-VivoBook-S15-X510UF:$ cat > "Вьючные животные"
-egor@egor-VivoBook-S15-X510UF:$ cat "Домашние животные" "Вьючные животные" > 
-"Общий список животных"
-egor@egor-VivoBook-S15-X510UF:$ ls
+Аиди, Алано, Акита, Бульдог, Мейн-кун, Сибирская кошка, Хомяк обыкновенный`  
+`egor@egor-VivoBook-S15-X510UF:$ cat > "Вьючные животные"`
+`egor@egor-VivoBook-S15-X510UF:$ cat "Домашние животные" "Вьючные животные" > 
+"Общий список животных"`  
+`egor@egor-VivoBook-S15-X510UF:$ ls
 Desktop   docertask   docker   Documents   Downloads   Music   Pictures   Public   snap   
 Templates   test   Videos   wordpress  'Вьючные животные'  'Домашние животные'  'Общий 
-список животных'
-egor@egor-VivoBook-S15-X510UF:$ cat "Общий список животных" 
+список животных'`  
+`egor@egor-VivoBook-S15-X510UF:$ cat "Общий список животных" 
 Аиди, Алано, Акита, Бульдог, Мейн-кун, Сибирская кошка, Хомяк обыкновенный
-Верблюд, Лошадь, Осел
-egor@egor-VivoBook-S15-X510UF:$ mv "Общий список животных" "Друзья человека"
-egor@egor-VivoBook-S15-X510UF:$ ls
+Верблюд, Лошадь, Осел`  
+`egor@egor-VivoBook-S15-X510UF:$ mv "Общий список животных" "Друзья человека"`  
+`egor@egor-VivoBook-S15-X510UF:$ ls
 Desktop   docertask   docker   Documents   Downloads   Music   Pictures   Public   snap   
 Templates   test   Videos   wordpress  'Вьючные животные'  'Домашние животные'  'Друзья 
-человека'
-egor@egor-VivoBook-S15-X510UF:$ mkdir Animals
-egor@egor-VivoBook-S15-X510UF:$ mv "Друзья человека" Animals
-egor@egor-VivoBook-S15-X510UF:$ ls
+человека'`  
+`egor@egor-VivoBook-S15-X510UF:$ mkdir Animals`  
+`egor@egor-VivoBook-S15-X510UF:$ mv "Друзья человека" Animals`  
+`egor@egor-VivoBook-S15-X510UF:$ ls
 Animals   Desktop   docertask   docker   Documents   Downloads   Music   Pictures   Public   snap   
-Templates   test   Videos   wordpress  'Вьючные животные'  'Домашние животные'
-egor@egor-VivoBook-S15-X510UF:$ cd Animals/
+Templates   test   Videos   wordpress  'Вьючные животные'  'Домашние животные'`  
+`egor@egor-VivoBook-S15-X510UF:$ cd Animals/`  
 egor@egor-VivoBook-S15-X510UF:/Animals$ ls
 'Друзья человека'
 egor@egor-VivoBook-S15-X510UF:/Animals$ cd ..
