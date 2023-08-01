@@ -32,10 +32,10 @@ Templates   test   Videos   wordpress  'Вьючные животные'  'До�
 Animals   Desktop   docertask   docker   Documents   Downloads   Music   Pictures   Public   snap   
 Templates   test   Videos   wordpress  'Вьючные животные'  'Домашние животные'`  
 `egor@egor-VivoBook-S15-X510UF:$ cd Animals/`  
-egor@egor-VivoBook-S15-X510UF:/Animals$ ls
-'Друзья человека'
-egor@egor-VivoBook-S15-X510UF:/Animals$ cd ..
-egor@egor-VivoBook-S15-X510UF:$ sudo apt install mysql-server
+`egor@egor-VivoBook-S15-X510UF:/Animals$ ls
+'Друзья человека'`  
+`egor@egor-VivoBook-S15-X510UF:/Animals$ cd ..`  
+`egor@egor-VivoBook-S15-X510UF:$ sudo apt install mysql-server
 Reading package lists... Done
 Building dependency tree... Done
 Reading state information... Done
@@ -50,7 +50,7 @@ Fetched 9.450 B in 0s (90,8 kB/s)
 (Reading database ... 214943 files and directories currently installed.)
 Preparing to unpack .../mysql-server_8.0.33-0ubuntu0.22.04.4_all.deb ...
 Unpacking mysql-server (8.0.33-0ubuntu0.22.04.4) over (8.0.33-0ubuntu0.22.04.2) ...
-Setting up mysql-server (8.0.33-0ubuntu0.22.04.4)
+Setting up mysql-server (8.0.33-0ubuntu0.22.04.4)`  
 
 6. Нарисовать диаграму, в которой есть класс родительский класс, домашние
 животные и вьючные животные, в составы которых в случае домашних
